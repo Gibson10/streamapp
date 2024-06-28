@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/gibsonmunene/Documents/GitHub/jerry's projects/stream-app/src/app/layout\":[\"static/media/eafabf029ad39a43-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
