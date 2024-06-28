@@ -40,8 +40,8 @@ const TokenSection = () => (
     <div className="w-full md:w-[40%] text-center flex flex-col items-center md:-translate-y-14">
       <p className="text-base font-normal text-grey-4 text-center px-10 md:px-0">
         Powering the entire ecosystem, {"$STREAM"} is essential for accessing
-        our platform's movies, series, and TV shows. Simply connect your wallet
-        and hold at least 1 {"$STREAM"} token to unlock a world of
+        our platform&apos;s movies, series, and TV shows. Simply connect your
+        wallet and hold at least 1 {"$STREAM"} token to unlock a world of
         entertainment.
       </p>
       <div className="w-[90%] md:w-4/5 flex flex-col items-center">
