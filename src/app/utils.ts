@@ -12,7 +12,7 @@ export type Movie = {
 
 export const getMovies: () => Promise<Movie[]> = cache(async () => {
     try {
-        const res = await axios.get<{ results: Movie[] }>('https://api.themoviedb.org/3/discover/movie?api_key=d3b7c979297d53a892e9627e7709739e&with_genres=878')
+        const res = await axios.get<{ results: Movie[] }>(`https://api.themoviedb.org/3/discover/movie?api_key=${process.env.MOVIE_API_KEY}&with_genres=878`)
         return res.data.results
     } catch (error) {
         return []
